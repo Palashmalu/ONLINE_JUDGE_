@@ -1,0 +1,37 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-image: url(https://images.pexels.com/photos/1743392/pexels-photo-1743392.jpeg?auto=compress&cs=tinysrgb&w=800);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.select-box {
+  margin-bottom: 10px;
+}
+
+.textarea {
+  height: 300px;
+}
+
+.submit-button {
+  margin-top: 10px;
+}
+
+.outputbox {
+  margin-top: 15px;
+  font-weight: bold;
+  color-scheme: dark light;
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px solid rgb(239, 219, 219);
+  font-family: 'Roboto', sans-serif;
+}
